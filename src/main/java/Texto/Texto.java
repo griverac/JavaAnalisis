@@ -52,35 +52,35 @@ public class Texto extends javax.swing.JFrame {
         txtfrase = new javax.swing.JTextField();
         limpiar = new javax.swing.JButton();
         jScrollPane2 = new javax.swing.JScrollPane();
-        jTextArea2 = new javax.swing.JTextArea();
+        longitud = new javax.swing.JTextArea();
         jScrollPane3 = new javax.swing.JScrollPane();
-        jTextArea3 = new javax.swing.JTextArea();
+        Totpal = new javax.swing.JTextArea();
         jScrollPane4 = new javax.swing.JScrollPane();
-        jTextArea4 = new javax.swing.JTextArea();
+        primerl = new javax.swing.JTextArea();
         jScrollPane5 = new javax.swing.JScrollPane();
-        jTextArea5 = new javax.swing.JTextArea();
+        ultimal = new javax.swing.JTextArea();
         jScrollPane6 = new javax.swing.JScrollPane();
-        jTextArea6 = new javax.swing.JTextArea();
+        centrall = new javax.swing.JTextArea();
         jScrollPane7 = new javax.swing.JScrollPane();
-        jTextArea7 = new javax.swing.JTextArea();
+        primerp = new javax.swing.JTextArea();
         jScrollPane8 = new javax.swing.JScrollPane();
-        jTextArea8 = new javax.swing.JTextArea();
+        palabrac = new javax.swing.JTextArea();
         jScrollPane9 = new javax.swing.JScrollPane();
-        jTextArea9 = new javax.swing.JTextArea();
+        ultimap = new javax.swing.JTextArea();
         jScrollPane10 = new javax.swing.JScrollPane();
-        jTextArea10 = new javax.swing.JTextArea();
+        rpta = new javax.swing.JTextArea();
         jScrollPane11 = new javax.swing.JScrollPane();
-        jTextArea11 = new javax.swing.JTextArea();
+        rpte = new javax.swing.JTextArea();
         jScrollPane12 = new javax.swing.JScrollPane();
-        jTextArea12 = new javax.swing.JTextArea();
+        rpti = new javax.swing.JTextArea();
         jScrollPane13 = new javax.swing.JScrollPane();
-        jTextArea13 = new javax.swing.JTextArea();
+        rpto = new javax.swing.JTextArea();
         jScrollPane14 = new javax.swing.JScrollPane();
-        jTextArea14 = new javax.swing.JTextArea();
+        rptu = new javax.swing.JTextArea();
         jScrollPane15 = new javax.swing.JScrollPane();
-        jTextArea15 = new javax.swing.JTextArea();
+        par = new javax.swing.JTextArea();
         jScrollPane16 = new javax.swing.JScrollPane();
-        jTextArea16 = new javax.swing.JTextArea();
+        impar = new javax.swing.JTextArea();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
         jMenuItem1 = new javax.swing.JMenuItem();
@@ -95,309 +95,309 @@ public class Texto extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBackground(new java.awt.Color(204, 204, 204));
+        jPanel1.setBackground(new Reemplazar.awt.Color(204, 204, 204));
 
         jTextField1.setEditable(false);
-        jTextField1.setBackground(new java.awt.Color(204, 204, 204));
-        jTextField1.setFont(new java.awt.Font("Sitka Heading", 1, 14)); // NOI18N
+        jTextField1.setBackground(new Reemplazar.awt.Color(204, 204, 204));
+        jTextField1.setFont(new Reemplazar.awt.Font("Sitka Heading", 1, 14)); // NOI18N
         jTextField1.setText("Tradución a Clave Murcielago");
-        jTextField1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        jTextField1.addActionListener(new Reemplazar.awt.event.ActionListener() {
+            public void actionPerformed(Reemplazar.awt.event.ActionEvent evt) {
                 jTextField1ActionPerformed(evt);
             }
         });
 
         jTextField2.setEditable(false);
-        jTextField2.setBackground(new java.awt.Color(204, 204, 204));
-        jTextField2.setFont(new java.awt.Font("Sitka Subheading", 1, 15)); // NOI18N
-        jTextField2.setForeground(new java.awt.Color(0, 0, 51));
+        jTextField2.setBackground(new Reemplazar.awt.Color(204, 204, 204));
+        jTextField2.setFont(new Reemplazar.awt.Font("Sitka Subheading", 1, 15)); // NOI18N
+        jTextField2.setForeground(new Reemplazar.awt.Color(0, 0, 51));
         jTextField2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField2.setText("Analizador de Texto");
         jTextField2.setBorder(null);
-        jTextField2.setDisabledTextColor(new java.awt.Color(0, 0, 51));
-        jTextField2.setSelectionColor(new java.awt.Color(204, 204, 204));
-        jTextField2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        jTextField2.setDisabledTextColor(new Reemplazar.awt.Color(0, 0, 51));
+        jTextField2.setSelectionColor(new Reemplazar.awt.Color(204, 204, 204));
+        jTextField2.addActionListener(new Reemplazar.awt.event.ActionListener() {
+            public void actionPerformed(Reemplazar.awt.event.ActionEvent evt) {
                 jTextField2ActionPerformed(evt);
             }
         });
 
-        procesar.setBackground(new java.awt.Color(0, 153, 204));
-        procesar.setFont(new java.awt.Font("Sitka Subheading", 3, 14)); // NOI18N
-        procesar.setForeground(new java.awt.Color(255, 255, 255));
+        procesar.setBackground(new Reemplazar.awt.Color(0, 153, 204));
+        procesar.setFont(new Reemplazar.awt.Font("Sitka Subheading", 3, 14)); // NOI18N
+        procesar.setForeground(new Reemplazar.awt.Color(255, 255, 255));
         procesar.setText("Procesar");
         procesar.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        procesar.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        procesar.addActionListener(new Reemplazar.awt.event.ActionListener() {
+            public void actionPerformed(Reemplazar.awt.event.ActionEvent evt) {
                 procesarActionPerformed(evt);
             }
         });
 
         jTextField3.setEditable(false);
-        jTextField3.setBackground(new java.awt.Color(204, 204, 204));
-        jTextField3.setFont(new java.awt.Font("Sitka Banner", 0, 14)); // NOI18N
+        jTextField3.setBackground(new Reemplazar.awt.Color(204, 204, 204));
+        jTextField3.setFont(new Reemplazar.awt.Font("Sitka Banner", 0, 14)); // NOI18N
         jTextField3.setText("Longitud del Texto:");
         jTextField3.setBorder(null);
 
         jTextField4.setEditable(false);
-        jTextField4.setBackground(new java.awt.Color(204, 204, 204));
-        jTextField4.setFont(new java.awt.Font("Sitka Banner", 0, 14)); // NOI18N
+        jTextField4.setBackground(new Reemplazar.awt.Color(204, 204, 204));
+        jTextField4.setFont(new Reemplazar.awt.Font("Sitka Banner", 0, 14)); // NOI18N
         jTextField4.setText("Primer Letra del Texto:");
         jTextField4.setBorder(null);
-        jTextField4.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        jTextField4.addActionListener(new Reemplazar.awt.event.ActionListener() {
+            public void actionPerformed(Reemplazar.awt.event.ActionEvent evt) {
                 jTextField4ActionPerformed(evt);
             }
         });
 
         jTextField5.setEditable(false);
-        jTextField5.setBackground(new java.awt.Color(204, 204, 204));
-        jTextField5.setFont(new java.awt.Font("Sitka Banner", 0, 14)); // NOI18N
+        jTextField5.setBackground(new Reemplazar.awt.Color(204, 204, 204));
+        jTextField5.setFont(new Reemplazar.awt.Font("Sitka Banner", 0, 14)); // NOI18N
         jTextField5.setText("Total de Palabras:");
         jTextField5.setBorder(null);
 
         jTextField6.setEditable(false);
-        jTextField6.setBackground(new java.awt.Color(204, 204, 204));
-        jTextField6.setFont(new java.awt.Font("Sitka Banner", 0, 14)); // NOI18N
+        jTextField6.setBackground(new Reemplazar.awt.Color(204, 204, 204));
+        jTextField6.setFont(new Reemplazar.awt.Font("Sitka Banner", 0, 14)); // NOI18N
         jTextField6.setText("Ultima Letra del Texto:");
         jTextField6.setBorder(null);
-        jTextField6.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        jTextField6.addActionListener(new Reemplazar.awt.event.ActionListener() {
+            public void actionPerformed(Reemplazar.awt.event.ActionEvent evt) {
                 jTextField6ActionPerformed(evt);
             }
         });
 
-        jTextField7.setBackground(new java.awt.Color(204, 204, 204));
-        jTextField7.setFont(new java.awt.Font("Sitka Banner", 0, 14)); // NOI18N
+        jTextField7.setBackground(new Reemplazar.awt.Color(204, 204, 204));
+        jTextField7.setFont(new Reemplazar.awt.Font("Sitka Banner", 0, 14)); // NOI18N
         jTextField7.setText("Letra Central del Texto:");
         jTextField7.setBorder(null);
-        jTextField7.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        jTextField7.addActionListener(new Reemplazar.awt.event.ActionListener() {
+            public void actionPerformed(Reemplazar.awt.event.ActionEvent evt) {
                 jTextField7ActionPerformed(evt);
             }
         });
 
         jTextField8.setEditable(false);
-        jTextField8.setBackground(new java.awt.Color(204, 204, 204));
-        jTextField8.setFont(new java.awt.Font("Sitka Banner", 0, 14)); // NOI18N
+        jTextField8.setBackground(new Reemplazar.awt.Color(204, 204, 204));
+        jTextField8.setFont(new Reemplazar.awt.Font("Sitka Banner", 0, 14)); // NOI18N
         jTextField8.setText("Primera Palabra:");
         jTextField8.setBorder(null);
-        jTextField8.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        jTextField8.addActionListener(new Reemplazar.awt.event.ActionListener() {
+            public void actionPerformed(Reemplazar.awt.event.ActionEvent evt) {
                 jTextField8ActionPerformed(evt);
             }
         });
 
         jTextField9.setEditable(false);
-        jTextField9.setBackground(new java.awt.Color(204, 204, 204));
-        jTextField9.setFont(new java.awt.Font("Sitka Banner", 0, 14)); // NOI18N
+        jTextField9.setBackground(new Reemplazar.awt.Color(204, 204, 204));
+        jTextField9.setFont(new Reemplazar.awt.Font("Sitka Banner", 0, 14)); // NOI18N
         jTextField9.setText("Palabra Central:");
         jTextField9.setBorder(null);
-        jTextField9.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        jTextField9.addActionListener(new Reemplazar.awt.event.ActionListener() {
+            public void actionPerformed(Reemplazar.awt.event.ActionEvent evt) {
                 jTextField9ActionPerformed(evt);
             }
         });
 
         jTextField10.setEditable(false);
-        jTextField10.setBackground(new java.awt.Color(204, 204, 204));
-        jTextField10.setFont(new java.awt.Font("Sitka Banner", 0, 14)); // NOI18N
+        jTextField10.setBackground(new Reemplazar.awt.Color(204, 204, 204));
+        jTextField10.setFont(new Reemplazar.awt.Font("Sitka Banner", 0, 14)); // NOI18N
         jTextField10.setText("Última Palabra:");
         jTextField10.setBorder(null);
-        jTextField10.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        jTextField10.addActionListener(new Reemplazar.awt.event.ActionListener() {
+            public void actionPerformed(Reemplazar.awt.event.ActionEvent evt) {
                 jTextField10ActionPerformed(evt);
             }
         });
 
         jTextField11.setEditable(false);
-        jTextField11.setBackground(new java.awt.Color(204, 204, 204));
-        jTextField11.setFont(new java.awt.Font("Sitka Banner", 0, 14)); // NOI18N
+        jTextField11.setBackground(new Reemplazar.awt.Color(204, 204, 204));
+        jTextField11.setFont(new Reemplazar.awt.Font("Sitka Banner", 0, 14)); // NOI18N
         jTextField11.setText("Repeteciones A, a, á:");
         jTextField11.setBorder(null);
 
         jTextField12.setEditable(false);
-        jTextField12.setBackground(new java.awt.Color(204, 204, 204));
-        jTextField12.setFont(new java.awt.Font("Sitka Banner", 0, 14)); // NOI18N
+        jTextField12.setBackground(new Reemplazar.awt.Color(204, 204, 204));
+        jTextField12.setFont(new Reemplazar.awt.Font("Sitka Banner", 0, 14)); // NOI18N
         jTextField12.setText("Repeteciones E, e, é:");
         jTextField12.setBorder(null);
-        jTextField12.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        jTextField12.addActionListener(new Reemplazar.awt.event.ActionListener() {
+            public void actionPerformed(Reemplazar.awt.event.ActionEvent evt) {
                 jTextField12ActionPerformed(evt);
             }
         });
 
         jTextField13.setEditable(false);
-        jTextField13.setBackground(new java.awt.Color(204, 204, 204));
-        jTextField13.setFont(new java.awt.Font("Sitka Banner", 0, 14)); // NOI18N
+        jTextField13.setBackground(new Reemplazar.awt.Color(204, 204, 204));
+        jTextField13.setFont(new Reemplazar.awt.Font("Sitka Banner", 0, 14)); // NOI18N
         jTextField13.setText("Repeteciones I, i, í:");
         jTextField13.setBorder(null);
-        jTextField13.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        jTextField13.addActionListener(new Reemplazar.awt.event.ActionListener() {
+            public void actionPerformed(Reemplazar.awt.event.ActionEvent evt) {
                 jTextField13ActionPerformed(evt);
             }
         });
 
         jTextField14.setEditable(false);
-        jTextField14.setBackground(new java.awt.Color(204, 204, 204));
-        jTextField14.setFont(new java.awt.Font("Sitka Banner", 0, 14)); // NOI18N
+        jTextField14.setBackground(new Reemplazar.awt.Color(204, 204, 204));
+        jTextField14.setFont(new Reemplazar.awt.Font("Sitka Banner", 0, 14)); // NOI18N
         jTextField14.setText("Repeteciones O, o, ó:");
         jTextField14.setBorder(null);
-        jTextField14.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        jTextField14.addActionListener(new Reemplazar.awt.event.ActionListener() {
+            public void actionPerformed(Reemplazar.awt.event.ActionEvent evt) {
                 jTextField14ActionPerformed(evt);
             }
         });
 
         jTextField15.setEditable(false);
-        jTextField15.setBackground(new java.awt.Color(204, 204, 204));
-        jTextField15.setFont(new java.awt.Font("Sitka Banner", 0, 14)); // NOI18N
+        jTextField15.setBackground(new Reemplazar.awt.Color(204, 204, 204));
+        jTextField15.setFont(new Reemplazar.awt.Font("Sitka Banner", 0, 14)); // NOI18N
         jTextField15.setText("Repeteciones U, u, ú:");
         jTextField15.setBorder(null);
-        jTextField15.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        jTextField15.addActionListener(new Reemplazar.awt.event.ActionListener() {
+            public void actionPerformed(Reemplazar.awt.event.ActionEvent evt) {
                 jTextField15ActionPerformed(evt);
             }
         });
 
         jTextField16.setEditable(false);
-        jTextField16.setBackground(new java.awt.Color(204, 204, 204));
-        jTextField16.setFont(new java.awt.Font("Sitka Banner", 0, 14)); // NOI18N
+        jTextField16.setBackground(new Reemplazar.awt.Color(204, 204, 204));
+        jTextField16.setFont(new Reemplazar.awt.Font("Sitka Banner", 0, 14)); // NOI18N
         jTextField16.setText("Palabras con cantidad de caracteres par:");
         jTextField16.setBorder(null);
-        jTextField16.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        jTextField16.addActionListener(new Reemplazar.awt.event.ActionListener() {
+            public void actionPerformed(Reemplazar.awt.event.ActionEvent evt) {
                 jTextField16ActionPerformed(evt);
             }
         });
 
         jTextField17.setEditable(false);
-        jTextField17.setBackground(new java.awt.Color(204, 204, 204));
-        jTextField17.setFont(new java.awt.Font("Sitka Banner", 0, 14)); // NOI18N
+        jTextField17.setBackground(new Reemplazar.awt.Color(204, 204, 204));
+        jTextField17.setFont(new Reemplazar.awt.Font("Sitka Banner", 0, 14)); // NOI18N
         jTextField17.setText("Palabras con cantidad de caracteres par:");
         jTextField17.setBorder(null);
-        jTextField17.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        jTextField17.addActionListener(new Reemplazar.awt.event.ActionListener() {
+            public void actionPerformed(Reemplazar.awt.event.ActionEvent evt) {
                 jTextField17ActionPerformed(evt);
             }
         });
 
         jTextField18.setEditable(false);
-        jTextField18.setBackground(new java.awt.Color(204, 204, 204));
-        jTextField18.setFont(new java.awt.Font("Sitka Heading", 0, 14)); // NOI18N
+        jTextField18.setBackground(new Reemplazar.awt.Color(204, 204, 204));
+        jTextField18.setFont(new Reemplazar.awt.Font("Sitka Heading", 0, 14)); // NOI18N
         jTextField18.setText("Ingrese su texto o abra un archivo:");
-        jTextField18.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        jTextField18.addActionListener(new Reemplazar.awt.event.ActionListener() {
+            public void actionPerformed(Reemplazar.awt.event.ActionEvent evt) {
                 jTextField18ActionPerformed(evt);
             }
         });
 
-        txtfrase.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        txtfrase.addActionListener(new Reemplazar.awt.event.ActionListener() {
+            public void actionPerformed(Reemplazar.awt.event.ActionEvent evt) {
                 txtfraseActionPerformed(evt);
             }
         });
 
-        limpiar.setBackground(new java.awt.Color(0, 153, 204));
-        limpiar.setFont(new java.awt.Font("Sitka Subheading", 3, 14)); // NOI18N
-        limpiar.setForeground(new java.awt.Color(255, 255, 255));
+        limpiar.setBackground(new Reemplazar.awt.Color(0, 153, 204));
+        limpiar.setFont(new Reemplazar.awt.Font("Sitka Subheading", 3, 14)); // NOI18N
+        limpiar.setForeground(new Reemplazar.awt.Color(255, 255, 255));
         limpiar.setText("Limpiar");
         limpiar.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        limpiar.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        limpiar.addActionListener(new Reemplazar.awt.event.ActionListener() {
+            public void actionPerformed(Reemplazar.awt.event.ActionEvent evt) {
                 limpiarActionPerformed(evt);
             }
         });
 
         jScrollPane2.setHorizontalScrollBar(null);
 
-        jTextArea2.setColumns(20);
-        jTextArea2.setRows(5);
-        jScrollPane2.setViewportView(jTextArea2);
+        longitud.setColumns(20);
+        longitud.setRows(5);
+        jScrollPane2.setViewportView(longitud);
 
         jScrollPane3.setHorizontalScrollBar(null);
 
-        jTextArea3.setColumns(20);
-        jTextArea3.setRows(5);
-        jScrollPane3.setViewportView(jTextArea3);
+        Totpal.setColumns(20);
+        Totpal.setRows(5);
+        jScrollPane3.setViewportView(Totpal);
 
         jScrollPane4.setHorizontalScrollBar(null);
 
-        jTextArea4.setColumns(20);
-        jTextArea4.setRows(5);
-        jScrollPane4.setViewportView(jTextArea4);
+        primerl.setColumns(20);
+        primerl.setRows(5);
+        jScrollPane4.setViewportView(primerl);
 
         jScrollPane5.setHorizontalScrollBar(null);
 
-        jTextArea5.setColumns(20);
-        jTextArea5.setRows(5);
-        jScrollPane5.setViewportView(jTextArea5);
+        ultimal.setColumns(20);
+        ultimal.setRows(5);
+        jScrollPane5.setViewportView(ultimal);
 
         jScrollPane6.setHorizontalScrollBar(null);
 
-        jTextArea6.setColumns(20);
-        jTextArea6.setRows(5);
-        jScrollPane6.setViewportView(jTextArea6);
+        centrall.setColumns(20);
+        centrall.setRows(5);
+        jScrollPane6.setViewportView(centrall);
 
         jScrollPane7.setHorizontalScrollBar(null);
 
-        jTextArea7.setColumns(20);
-        jTextArea7.setRows(5);
-        jScrollPane7.setViewportView(jTextArea7);
+        primerp.setColumns(20);
+        primerp.setRows(5);
+        jScrollPane7.setViewportView(primerp);
 
         jScrollPane8.setHorizontalScrollBar(null);
 
-        jTextArea8.setColumns(20);
-        jTextArea8.setRows(5);
-        jScrollPane8.setViewportView(jTextArea8);
+        palabrac.setColumns(20);
+        palabrac.setRows(5);
+        jScrollPane8.setViewportView(palabrac);
 
         jScrollPane9.setHorizontalScrollBar(null);
 
-        jTextArea9.setColumns(20);
-        jTextArea9.setRows(5);
-        jScrollPane9.setViewportView(jTextArea9);
+        ultimap.setColumns(20);
+        ultimap.setRows(5);
+        jScrollPane9.setViewportView(ultimap);
 
         jScrollPane10.setHorizontalScrollBar(null);
 
-        jTextArea10.setColumns(20);
-        jTextArea10.setRows(5);
-        jScrollPane10.setViewportView(jTextArea10);
+        rpta.setColumns(20);
+        rpta.setRows(5);
+        jScrollPane10.setViewportView(rpta);
 
         jScrollPane11.setHorizontalScrollBar(null);
 
-        jTextArea11.setColumns(20);
-        jTextArea11.setRows(5);
-        jScrollPane11.setViewportView(jTextArea11);
+        rpte.setColumns(20);
+        rpte.setRows(5);
+        jScrollPane11.setViewportView(rpte);
 
         jScrollPane12.setHorizontalScrollBar(null);
 
-        jTextArea12.setColumns(20);
-        jTextArea12.setRows(5);
-        jScrollPane12.setViewportView(jTextArea12);
+        rpti.setColumns(20);
+        rpti.setRows(5);
+        jScrollPane12.setViewportView(rpti);
 
         jScrollPane13.setHorizontalScrollBar(null);
 
-        jTextArea13.setColumns(20);
-        jTextArea13.setRows(5);
-        jScrollPane13.setViewportView(jTextArea13);
+        rpto.setColumns(20);
+        rpto.setRows(5);
+        jScrollPane13.setViewportView(rpto);
 
         jScrollPane14.setHorizontalScrollBar(null);
 
-        jTextArea14.setColumns(20);
-        jTextArea14.setRows(5);
-        jScrollPane14.setViewportView(jTextArea14);
+        rptu.setColumns(20);
+        rptu.setRows(5);
+        jScrollPane14.setViewportView(rptu);
 
         jScrollPane15.setHorizontalScrollBar(null);
 
-        jTextArea15.setColumns(20);
-        jTextArea15.setRows(5);
-        jScrollPane15.setViewportView(jTextArea15);
+        par.setColumns(20);
+        par.setRows(5);
+        jScrollPane15.setViewportView(par);
 
         jScrollPane16.setHorizontalScrollBar(null);
 
-        jTextArea16.setColumns(20);
-        jTextArea16.setRows(5);
-        jScrollPane16.setViewportView(jTextArea16);
+        impar.setColumns(20);
+        impar.setRows(5);
+        jScrollPane16.setViewportView(impar);
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -584,23 +584,23 @@ public class Texto extends javax.swing.JFrame {
 
         jMenu1.setText("Archivo");
 
-        jMenuItem1.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_A, java.awt.event.InputEvent.CTRL_DOWN_MASK));
+        jMenuItem1.setAccelerator(javax.swing.KeyStroke.getKeyStroke(Reemplazar.awt.event.KeyEvent.VK_A, Reemplazar.awt.event.InputEvent.CTRL_DOWN_MASK));
         jMenuItem1.setText("Abrir");
         jMenu1.add(jMenuItem1);
 
-        jMenuItem2.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_G, java.awt.event.InputEvent.CTRL_DOWN_MASK));
+        jMenuItem2.setAccelerator(javax.swing.KeyStroke.getKeyStroke(Reemplazar.awt.event.KeyEvent.VK_G, Reemplazar.awt.event.InputEvent.CTRL_DOWN_MASK));
         jMenuItem2.setText("Guardar ");
-        jMenuItem2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        jMenuItem2.addActionListener(new Reemplazar.awt.event.ActionListener() {
+            public void actionPerformed(Reemplazar.awt.event.ActionEvent evt) {
                 jMenuItem2ActionPerformed(evt);
             }
         });
         jMenu1.add(jMenuItem2);
 
-        jMenuItem3.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F12, 0));
+        jMenuItem3.setAccelerator(javax.swing.KeyStroke.getKeyStroke(Reemplazar.awt.event.KeyEvent.VK_F12, 0));
         jMenuItem3.setText("Guardar como");
-        jMenuItem3.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        jMenuItem3.addActionListener(new Reemplazar.awt.event.ActionListener() {
+            public void actionPerformed(Reemplazar.awt.event.ActionEvent evt) {
                 jMenuItem3ActionPerformed(evt);
             }
         });
@@ -610,33 +610,33 @@ public class Texto extends javax.swing.JFrame {
 
         jMenu2.setText("Editar");
 
-        jMenuItem4.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_C, java.awt.event.InputEvent.CTRL_DOWN_MASK));
+        jMenuItem4.setAccelerator(javax.swing.KeyStroke.getKeyStroke(Reemplazar.awt.event.KeyEvent.VK_C, Reemplazar.awt.event.InputEvent.CTRL_DOWN_MASK));
         jMenuItem4.setText("Copiar");
-        jMenuItem4.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        jMenuItem4.addActionListener(new Reemplazar.awt.event.ActionListener() {
+            public void actionPerformed(Reemplazar.awt.event.ActionEvent evt) {
                 jMenuItem4ActionPerformed(evt);
             }
         });
         jMenu2.add(jMenuItem4);
 
-        jMenuItem5.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_X, java.awt.event.InputEvent.CTRL_DOWN_MASK));
+        jMenuItem5.setAccelerator(javax.swing.KeyStroke.getKeyStroke(Reemplazar.awt.event.KeyEvent.VK_X, Reemplazar.awt.event.InputEvent.CTRL_DOWN_MASK));
         jMenuItem5.setText("Cortar");
-        jMenuItem5.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        jMenuItem5.addActionListener(new Reemplazar.awt.event.ActionListener() {
+            public void actionPerformed(Reemplazar.awt.event.ActionEvent evt) {
                 jMenuItem5ActionPerformed(evt);
             }
         });
         jMenu2.add(jMenuItem5);
 
-        jMenuItem6.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_P, java.awt.event.InputEvent.CTRL_DOWN_MASK));
+        jMenuItem6.setAccelerator(javax.swing.KeyStroke.getKeyStroke(Reemplazar.awt.event.KeyEvent.VK_P, Reemplazar.awt.event.InputEvent.CTRL_DOWN_MASK));
         jMenuItem6.setText("Pegar ");
         jMenu2.add(jMenuItem6);
 
-        jMenuItem7.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_B, java.awt.event.InputEvent.CTRL_DOWN_MASK));
+        jMenuItem7.setAccelerator(javax.swing.KeyStroke.getKeyStroke(Reemplazar.awt.event.KeyEvent.VK_B, Reemplazar.awt.event.InputEvent.CTRL_DOWN_MASK));
         jMenuItem7.setText("Buscar");
         jMenu2.add(jMenuItem7);
 
-        jMenuItem8.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_R, java.awt.event.InputEvent.CTRL_DOWN_MASK));
+        jMenuItem8.setAccelerator(javax.swing.KeyStroke.getKeyStroke(Reemplazar.awt.event.KeyEvent.VK_R, Reemplazar.awt.event.InputEvent.CTRL_DOWN_MASK));
         jMenuItem8.setText("Reemplazar");
         jMenu2.add(jMenuItem8);
 
@@ -739,8 +739,8 @@ public class Texto extends javax.swing.JFrame {
     private void procesarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_procesarActionPerformed
         String frase = txtfrase.getText();
         txtrespuesta.setText(frase);
-    
-        
+      
+          
         
     }//GEN-LAST:event_procesarActionPerformed
 
@@ -769,18 +769,18 @@ public class Texto extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Texto.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            Reemplazar.util.logging.Logger.getLogger(Texto.class.getName()).log(Reemplazar.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Texto.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            Reemplazar.util.logging.Logger.getLogger(Texto.class.getName()).log(Reemplazar.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Texto.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            Reemplazar.util.logging.Logger.getLogger(Texto.class.getName()).log(Reemplazar.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Texto.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            Reemplazar.util.logging.Logger.getLogger(Texto.class.getName()).log(Reemplazar.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
+        Reemplazar.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new Texto().setVisible(true);
             }
@@ -788,6 +788,9 @@ public class Texto extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JTextArea Totpal;
+    private javax.swing.JTextArea centrall;
+    private javax.swing.JTextArea impar;
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenuBar jMenuBar1;
@@ -815,21 +818,6 @@ public class Texto extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane7;
     private javax.swing.JScrollPane jScrollPane8;
     private javax.swing.JScrollPane jScrollPane9;
-    private javax.swing.JTextArea jTextArea10;
-    private javax.swing.JTextArea jTextArea11;
-    private javax.swing.JTextArea jTextArea12;
-    private javax.swing.JTextArea jTextArea13;
-    private javax.swing.JTextArea jTextArea14;
-    private javax.swing.JTextArea jTextArea15;
-    private javax.swing.JTextArea jTextArea16;
-    private javax.swing.JTextArea jTextArea2;
-    private javax.swing.JTextArea jTextArea3;
-    private javax.swing.JTextArea jTextArea4;
-    private javax.swing.JTextArea jTextArea5;
-    private javax.swing.JTextArea jTextArea6;
-    private javax.swing.JTextArea jTextArea7;
-    private javax.swing.JTextArea jTextArea8;
-    private javax.swing.JTextArea jTextArea9;
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField10;
     private javax.swing.JTextField jTextField11;
@@ -849,8 +837,20 @@ public class Texto extends javax.swing.JFrame {
     private javax.swing.JTextField jTextField8;
     private javax.swing.JTextField jTextField9;
     private javax.swing.JButton limpiar;
+    private javax.swing.JTextArea longitud;
+    private javax.swing.JTextArea palabrac;
+    private javax.swing.JTextArea par;
+    private javax.swing.JTextArea primerl;
+    private javax.swing.JTextArea primerp;
     private javax.swing.JButton procesar;
+    private javax.swing.JTextArea rpta;
+    private javax.swing.JTextArea rpte;
+    private javax.swing.JTextArea rpti;
+    private javax.swing.JTextArea rpto;
+    private javax.swing.JTextArea rptu;
     private javax.swing.JTextField txtfrase;
     private javax.swing.JTextField txtrespuesta;
+    private javax.swing.JTextArea ultimal;
+    private javax.swing.JTextArea ultimap;
     // End of variables declaration//GEN-END:variables
 }
